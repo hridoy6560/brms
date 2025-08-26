@@ -49,7 +49,7 @@
       font-family: 'Roboto', sans-serif;
     }
     .transfer-box h2 {
-      margin: 12px 0 6px;
+      margin: 12px 0 0 0; /* Top margin reduced */
       font-size: 32px;
       color: #fff;
     }
@@ -62,7 +62,7 @@
       transform: scale(1.05);
     }
     .transfer-box p {
-      margin: -8px 0 0 0; /* Adjusted to move up */
+      margin: -16px 0 0 0; /* Pulled further up */
       color: #aaa;
       font-size: 18px;
     }
@@ -198,11 +198,10 @@
 
   <!-- JavaScript -->
   <script>
-    // Set current date/time
+    // Set current date/time (without year)
     const now = new Date();
     const options = {
       timeZone: 'Asia/Dhaka',
-      year: 'numeric',
       month: 'short',
       day: 'numeric',
       hour: '2-digit',
