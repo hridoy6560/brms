@@ -1,11 +1,10 @@
 {
-  "name": "USDT Transfer",
+  "name": "Wallet",
   "short_name": "Transfer",
-  "start_url": "./",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#121212",
   "theme_color": "#121212",
-  "orientation": "portrait",
   "icons": [
     {
       "src": "https://i.postimg.cc/QdCVbxrX/download-8.jpg",
